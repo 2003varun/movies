@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #0070f3, #6e64f6);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0f171e;
+  color: white;
+  padding: 15px 30px;
+}
+.container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+}
+
+.login-box {
+  background: white;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.login-box h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px;
+  background: linear-gradient(to right, #00b4db, #8e2de2);
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.extras, .signup {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.extras a, .signup a {
+  color: #5f6dfc;
+  text-decoration: none;
+}
+
+.extras a:hover, .signup a:hover {
+  text-decoration: underline;
+}

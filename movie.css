@@ -29,18 +29,14 @@ body {
   text-transform: lowercase;
   cursor: pointer;
 }
-
 .navbar nav ul {
   list-style: none;
   display: flex;
   gap: 20px;
 }
-
 .navbar nav ul li {
   cursor: pointer;
 }
-
-
 .join-btn {
   background-color: #1a98ff;
   color: white;

@@ -141,7 +141,7 @@ body {
 }
 .movie-section {
   padding: 50px;
-  background-color: #1a98ff;
+  background-color: #000000;
   color: white;
 }
 
@@ -205,4 +205,22 @@ body {
   margin-bottom: 30px;
   text-align: left;
   padding-left: 20px;
+}
+.card-info {
+  margin-top: 8px;
+  color: #ffffff;
+}
+.movie-card {
+  background: #000000;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  text-align: center;
+  width: fit-content;   /* Wraps exactly around image */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.35);
 }

@@ -6,8 +6,10 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f8f8f8;
-  color: #000;
+  background: linear-gradient(180deg, #020617 0%, #0f172a 45%, #000000 100%);
+  color: #ffffff;
+  overflow-x: hidden;
+  min-height: 100vh;
 }
 
 .navbar {
@@ -56,7 +58,7 @@ body {
     align-items: center;
 }
 .join-link {
-  background-color: none;
+  background-color: transparent;
   color: rgb(255, 255, 255);
   padding: 8px 16px;
   transition: background-color 0.3s, color 0.3s;
@@ -127,8 +129,8 @@ body {
 }
 .movie-section {
   padding: 50px;
-  background-color: #000000;
-  color: rgb(0, 0, 0);
+  background: linear-gradient(180deg, #000000 0%, #07111f 100%);
+  color: #ffffff;
 }
 
 .movie-section h2 {
@@ -144,8 +146,8 @@ body {
   justify-content: center;
 }
 .movie-section img {
-  width: 130px;
-  height: 190px;
+  width: 120px;
+  height: 180px;
   object-fit: cover;
   cursor: pointer;
   border-radius: 8px;
@@ -173,7 +175,7 @@ body {
     text-decoration: none;
 }
 .nav-link {
-  background-color: none;
+  background-color: transparent;
   color: rgb(255, 255, 255);
   padding: 8px 16px;
   transition: background-color 0.3s, color 0.3s;
@@ -211,7 +213,7 @@ body {
 }
 .card-container {
   display: flex;          /* make cards in a row */
-  gap: 20px;   
+  gap: 16px;
   padding-bottom: 10px;           /* space between cards */
   /* overflow-x: auto;       horizontal scroll if too many cards */
      /* optional, for scrollbar spacing */
@@ -227,6 +229,15 @@ body {
   background-color: #888;
   border-radius: 4px;
 } */
+
+.card-container > div {
+  width: 220px !important;
+  padding: 10px !important;
+}
+
+.card-container > div img {
+  height: 260px !important;
+}
 
 /* .card-container::-webkit-scrollbar-thumb:hover {
   background-color: #555;
